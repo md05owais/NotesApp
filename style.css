@@ -1,0 +1,125 @@
+.nav {
+  background-color: black;
+  text-align: right;
+  height: 40px;
+  position: sticky;
+}
+.left-nav {
+  list-style: none;
+  display: flex;
+  position: relative;
+  top: 8px;
+}
+.right-nav {
+  position: relative;
+  bottom: 9px;
+}
+.left-nav li {
+  color: white;
+  margin-left: 15px;
+}
+.outer-div {
+  margin-left: 100px;
+  position: sticky;
+}
+.main-container {
+  height: inherit;
+  border: 1px solid black;
+}
+#title {
+  width: 95%;
+  height: 30px;
+  position: relative;
+  bottom: 12px;
+  margin-left: 10px;
+}
+#note {
+  width: 95%;
+  position: relative;
+  bottom: 12px;
+  margin-left: 10px;
+}
+.main-container p,
+button {
+  margin-left: 10px;
+}
+.main-container button {
+  position: relative;
+  bottom: 10px;
+}
+.your-notes {
+  font-size: 30px;
+}
+.Add-Box {
+  /* width: 200px; */
+  height: auto;
+  margin-left: 100px;
+  /* border: 1px solid black; */
+  text-align: left;
+  word-wrap: break-word;
+  padding-left: 10px;
+  position: relative;
+  padding-bottom: 4px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 10px;
+  grid-gap: 0.5rem;
+  /* background-color: aqua; */
+  /* bottom: 0px; */
+}
+.Box-item {
+  background-color: rgba(119, 204, 21, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  /* width: ; */
+}
+.hidden {
+  display: none;
+}
+.box-title {
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-decoration-color: red;
+  font-size: large;
+  color: blue;
+}
+.box-notes {
+  text-transform: capitalize;
+}
+.delete-Notes {
+  /* display: none; */
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 500px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: blue;
+}
+.Add-Notes-pop {
+  color: green;
+  font-size: 22px;
+  position: relative;
+  top: 60px;
+  border: 1px solid red;
+  font-family: algerian;
+  background-color: cadetblue;
+}
+.Edit-delete {
+  display: flex;
+}
+.delete {
+  background-color: rgb(21, 21, 179);
+  border-radius: 15%;
+}
+.heading {
+  display: flex;
+  gap: 15rem;
+}
+.delete-style {
+  background-color: black;
+  color: white;
+}

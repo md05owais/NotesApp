@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="left-nav">
+        <li>Magic Notes</li>
+        <li>Home</li>
+      </div>
+      <form action="">
+        <div class="right-nav">
+          <input
+            type="text"
+            name=""
+            id="search-nav"
+            class="Seacrh-Nav"
+            placeholder="Search"
+          />
+          <button type="submit" class="Search">Search</button>
+        </div>
+      </form>
+    </nav>
+    <div class="outer-div">
+      <div class="heading">
+        <h1>Welcome to Magic Notes</h1>
+        <p class="Add-Notes-pop hidden">Added successfully 🎉</p>
+      </div>
+      <div class="main-container" id="title-note">
+        <form action="">
+          <p>Add Title</p>
+          <textarea
+            name="title"
+            id="title"
+            cols="30"
+            rows="10"
+            class="textArea"
+          ></textarea>
+          <p>Add a note</p>
+          <textarea
+            name="note"
+            id="note"
+            cols="30"
+            rows="10"
+            class="textArea"
+          ></textarea
+          ><br />
+          <button type="submit" class="Add-Note">Add Note</button>
+        </form>
+      </div>
+      <hr />
+      <p class="your-notes">Your Notes</p>
+      <hr />
+      <p class="paragraph">
+        Nothing to show here, Use Add Notes section above to add your notes
+        here.
+      </p>
+    </div>
+    <div class="Add-Box hidden">
+      <div class="Box-item">
+        <p class="box-title">content</p>
+        <p class="box-notes">Aligarh Muslim University, Aligarh</p>
+        <div class="Edit-Delete">
+          <button type="button" class="delete">delete</button>
+          <button type="button" class="edit">
+            <a href="#title"></a>
+            Edit
+          </button>
+        </div>
+      </div>
+    </div>
+    <p class="delete-Notes hidden">deleted successfully💀</p>
+
+    <script src="index.js"></script>
+  </body>
+</html>
