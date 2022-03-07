@@ -51,7 +51,7 @@ button {
   font-size: 30px;
 }
 .Add-Box {
-  /* width: 200px; */
+  width: 95vw;
   height: auto;
   margin-left: 100px;
   /* border: 1px solid black; */
@@ -60,19 +60,25 @@ button {
   padding-left: 10px;
   position: relative;
   padding-bottom: 4px;
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  gap: 5px;
   padding: 10px;
   grid-gap: 0.5rem;
+  background-attachment: fixed;
   /* background-color: aqua; */
   /* bottom: 0px; */
 }
 .Box-item {
+  width: 20%;
   background-color: rgba(119, 204, 21, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: left;
+  /* display: flex; */
   /* width: ; */
 }
 .hidden {
